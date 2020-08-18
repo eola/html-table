@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.extra_rdoc_files  = ['README.rdoc', 'CHANGES.rdoc'] + Dir['doc/*.rdoc']
 
-  spec.add_dependency('structured_warnings', '~> 0.3.0')
+  spec.add_dependency('structured_warnings', '~> 0.4.0')
 
   spec.add_development_dependency('test-unit')
   spec.add_development_dependency('rake')
